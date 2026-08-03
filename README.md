@@ -30,6 +30,11 @@ This project provides an end-to-end financial audit and operational analysis of 
   * `LAG() OVER (ORDER BY Sales_Month)` for MoM trend calculations
 * **Subqueries & Organization:** Common Table Expressions (CTEs) via `WITH` statements
 * **Date Parsing:** `STR_TO_DATE()` and `DATE_FORMAT()` for standardizing raw date strings
+**Repoprts:**<img width="1600" height="900" alt="Screenshot (2109)" src="https://github.com/user-attachments/assets/978e5e1f-e1de-4265-a040-2c48b3a6ea3c" />
+<img width="1600" height="900" alt="Screenshot (2110)" src="https://github.com/user-attachments/assets/c0c943ab-d5eb-4d2b-9877-64b8ceede8a9" />
+<img width="1600" height="900" alt="Screenshot (2111)" src="https://github.com/user-attachments/assets/b2c92e20-4b6c-4360-b613-735c77c8bcca" />
+
+
 
  Repository Structure
 ```text
