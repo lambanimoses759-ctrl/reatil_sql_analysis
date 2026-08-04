@@ -48,8 +48,7 @@ ORDER BY Sales_Channel, Customer_Type;
 
 WITH Monthly_Sales AS (
     SELECT 
-        -- Extracts YYYY-MM directly from string dates (e.g., '1/15/2023' or '2023-01-15')
-        SUBSTRING_INDEX(Sale_Date, '/', -1) AS Sale_Year,
+         SUBSTRING_INDEX(Sale_Date, '/', -1) AS Sale_Year,
         ROUND(SUM(Quantity_Sold * Unit_Price * (1 - Discount)), 2) AS Monthly_Net_Revenue
     FROM sales_data
     GROUP BY Sale_Year
